@@ -1,7 +1,7 @@
 import { createApi , fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
-    baseUrl: `${process.env.PUBLIC_URL}/api/admin/`,
+    baseUrl: `${process.env.REACT_APP_PUBLIC_URL}/api/admin/`,
     // baseUrl: 'https://bookish-8j43.onrender.com/api/admin/',
 
     prepareHeaders: (headers) => {
